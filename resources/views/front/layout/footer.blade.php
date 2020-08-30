@@ -1,0 +1,88 @@
+
+<footer class="ftco-footer ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">خدماتنا</h2>
+                    <p>تطوير البرمجيات والحلول الذكية </p>
+                    <p>إدارة المشاريع </p>
+                    <p>التجارة اﻹلكترونية </p>
+                    <ul class="ftco-footer-social list-unstyled mt-5">
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-facebook-f "></i></a></li>
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">عن الشركة</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>تطوير تطبيقات الهواتف الذكية</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>تطوير مواقع الويب.</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>تطوير مواقع التجارة الالكترونية</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>تطوير انظمة الادارة والمبيعات</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>الدعم الفني</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">المشاريع</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع 1</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع 2</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع 3</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">تواصل معنا</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i><span class="text">المنصورة - بجوار مصر للطيران</span></li>
+                            <li><i class="fas fa-phone-alt fa-2x"></i><span class="text">
+                                    0502324455
+                                </span></li>
+                            <li><i class="fab fa-facebook fa-2x"></i><span class="text">
+                                    @devst.com
+                                </span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+<a id="scrollTop"></a>
+
+<script src="{{asset('front/js/particles.min.js')}}"></script>
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', '{{asset('front/js/particles.json')}}', function() {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
+<script src="{{asset('front/js/jquery.min.js')}}"></script>
+<script src="{{asset('front/js/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{asset('front/js/popper.min.js')}}"></script>
+<script src="{{asset('front/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('front/js/jquery.easing.1.3.js')}}"></script>
+<script src="{{asset('front/js/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('front/js/jquery.stellar.min.js')}}"></script>
+<script src="{{asset('front/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('front/js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{asset('front/js/jquery.animateNumber.min.js')}}"></script>
+<script src="{{asset('front/js/scrollax.min.js')}}"></script>
+<script src="{{asset('front/js/all.min.js')}}"></script>
+<script src="{{asset('front/js/main.js')}}"></script>
+
+
+</body>
+</html>
