@@ -1,7 +1,13 @@
 body{
     font-family: 'Cairo', sans-serif;
 }
+/* begin navbar */
+.ftco-navbar-light .navbar-nav > .nav-item.active > a{
+    padding-top: 8px !important;
+     padding-bottom: 8px !important
+}
 
+/*End navbar */
 /* slider */
 .slider-button{
     margin-right: 10px  ;
@@ -26,7 +32,9 @@ body{
 
 /************************** begin Contact us ****************/
 .message{
-    width: 100%;
+    width: 45%;
+    display: block;
+    margin: 5px auto
 }
 /************************** End  Contact us ****************/
 
@@ -58,3 +66,5 @@ footer .text{
     text-align: right;
     padding: 0 20px;
 }
+
+

@@ -1,5 +1,17 @@
 
-<footer class="ftco-footer ftco-section">
+
+<a id="scrollTop"></a>
+
+<script src="{{asset('front/js/particles.min.js')}}"></script>
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', '{{asset('front/js/particles.json')}}', function() {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
+
+
+<footer class="ftco-footer ftco-section text-center">
     <div class="container">
         <div class="row mb-5">
             <div class="col-md">
@@ -31,9 +43,9 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">المشاريع</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع 1</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع 2</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع 3</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>مشروع تجارة إلكترونية</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> منصة التجارة الالكترونية</a></li>
+                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>نظام المنتسبين</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +55,7 @@
                     <h2 class="ftco-heading-2">تواصل معنا</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><i class="fas fa-map-marker-alt fa-2x"></i><span class="text">المنصورة - بجوار مصر للطيران</span></li>
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i><span class="text">المنصورة -شارع الجيش - بجوار مصر للطيران</span></li>
                             <li><i class="fas fa-phone-alt fa-2x"></i><span class="text">
                                     0502324455
                                 </span></li>
@@ -60,15 +72,7 @@
     </div>
 
 </footer>
-<a id="scrollTop"></a>
 
-<script src="{{asset('front/js/particles.min.js')}}"></script>
-<script>
-    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', '{{asset('front/js/particles.json')}}', function() {
-        console.log('callback - particles.js config loaded');
-    });
-</script>
 <script src="{{asset('front/js/jquery.min.js')}}"></script>
 <script src="{{asset('front/js/jquery-migrate-3.0.1.min.js')}}"></script>
 <script src="{{asset('front/js/popper.min.js')}}"></script>
@@ -82,7 +86,5 @@
 <script src="{{asset('front/js/scrollax.min.js')}}"></script>
 <script src="{{asset('front/js/all.min.js')}}"></script>
 <script src="{{asset('front/js/main.js')}}"></script>
-
-
 </body>
 </html>

@@ -22,7 +22,7 @@
 .slider-text h1:after{
     background:#2789dd !important;
 }
-.heading-section .subheading,.portfolio-wrap .text .desc .custom-btn,.fa-shopping-basket, .fa-store, .flaticon-blueprint, .fa-phone-alt, .fa-envelope, .fa-map-marker-alt, .fa-facebook, .fa-facebook-f, .fa-twitter, .fa-instagram{
+.heading-section .subheading,.portfolio-wrap .text .desc .custom-btn,.fa-shopping-basket, .fa-store, .flaticon-blueprint, .fa-phone-alt, .fa-envelope, .fa-map-marker-alt, .fa-facebook, .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-mobile-alt{
     color: #2789dd !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active{
@@ -49,6 +49,8 @@ form .submit{
 }
 footer{
     margin-top: 10px;
+    /*margin-bottom: 0 !important;*/
+    /*padding-bottom: 0 !important;*/
 }
 
 
@@ -100,4 +102,47 @@ footer{
 }
 
 /*button scroll top*/
+
+
+/* socail */
+.box-info .socail-icon-box  .fa-mobile-alt{
+    font-size: 22px;
+}
+/* socail */
+/* contact us*/
+.box-info .socail-icon-box{
+    height: 100%;
+    width: 100%;
+
+}
+.box-info .socail-icon-box .fa-envelope,.box-info .socail-icon-box .fa-facebook-f{
+    font-size: 21px;
+}
+.box-info{
+    display: block;
+    margin-bottom: 60px;
+}
+.box-info .box p{
+    font-size: 15px;
+    margin: 0;
+}
+.box-info .phone{
+    direction: ltr;
+}
+.contact{
+    margin-bottom: 60px;
+}
+.contact form.p-5{
+
+    padding: 3px !important;
+}
+.contact .text-box{
+
+    margin-right: 15px;
+
+}
+.ftco-footer .ftco-footer-widget h2{
+    text-align: center;
+}
+/* End contact us*/
 /* general Edit styles */

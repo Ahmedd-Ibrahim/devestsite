@@ -4,33 +4,37 @@ namespace App\Http\Controllers\front;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Http\Requests\emailRequest;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
 class frontController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('front.index');
     }// End of index
 
+    function send(emailRequest $request)
+    {
+        try {
 
-    public function about(){
-        return view('front.about');
-    } // End of about
+            $data = array(
+                'name'      =>  $request->name,
+                'email'      =>  $request->email,
+                'subject'      =>  $request->subject,
+                'message'   =>   $request->message
+            );
 
-     public function team(){
-        return view('front.team');
-    } // End of team
+            Mail::to('a9a19bc1b1-674c04@inbox.mailtrap.io')->send(new SendMail($data));
+            return redirect()->route('front.index')->with('success', 'تم ارسال رسالتك بنجاح, شكرا على تواصلك معنا !');
 
-     public function services(){
-        return view('front.services');
-    } // End of services
+//            return back()->with('success','Item created successfully!');
+
+        }catch (\Exception $ex){
+            return back()->with('error', 'unxpected problem!');
+        }
 
 
-    public function contact(){
-        return view('front.contact');
-    } // End of contact
-
-    public function project(){
-        return view('front.project');
-    } // End of project
+    } // End of Send
 
 } // End of controller

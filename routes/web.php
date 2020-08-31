@@ -17,32 +17,20 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+    'login'=>false
+]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+//Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['namespace'=>'front'],function(){
 
     // index route
     Route::get('/','frontController@index')->name('front.index');
 
-    // about route
-    Route::get('/about','frontController@about')->name('front.about');
-
-    // team route
-    Route::get('/team','frontController@team')->name('front.team');
-
-    // services route
-    Route::get('/services','frontController@services')->name('front.services');
-
-    // contact route
-    Route::get('/contact','frontController@contact')->name('front.contact');
-
-
-    // projects route
-    Route::get('/project','frontController@project')->name('front.project');
-
-
+    Route::post('/send','frontController@send')->name('front.send');
 
 });
 

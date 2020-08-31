@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&display=swap" rel="stylesheet">
+{{--    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&display=swap" rel="stylesheet">--}}
 
     <link rel="stylesheet" href="{{asset('front/css/animate.css')}}">
 
@@ -28,6 +28,19 @@
     <link rel="stylesheet" href="{{asset('front/css/custom.css')}}">
 
     {{--End my edit--}}
+    {{--noty--}}
+    <link rel="stylesheet" href="{{ asset('front/plugins/noty/noty.css') }}">
+    <script src="{{ asset('front/plugins/noty/noty.min.js') }}"></script>
+    <style>
+        @font-face {
+            font-family: Cairo;
+            src: url({{'front/webfonts/Cairo-Regular.ttf'}});
+        }
+
+        * {
+            font-family: Cairo, sans-serif;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">

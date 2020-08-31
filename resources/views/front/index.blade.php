@@ -129,66 +129,47 @@
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Pricing</span>
-                <h2>Price &amp; Plans</h2>
+                <span class="subheading">المجالات والصناعات التي نعمل حالياً على تطوير برمجيات متقدمة لدعمها وحل مشكلاتها</span>
+                <h2>مشاريعنا</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 ftco-animate">
                 <div class="block-7">
-                    <div class="img" style="background-image: url({{asset('front/images/work-1.jpg')}});"></div>
+                    <div class="img" style="background-image: url({{asset('front/images/soon.jpg')}});"></div>
                     <div class="p-4">
-                        <ul class="pricing-text mb-2">
-                            <li><span class="fa fa-check-circle mr-2"></span>Planning Solution</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>10 Construction Drawings</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>Selection Materials</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>Unlimited Revision</li>
+                        <ul class="pricing-text mb-2 text-center">
+                            <li><span class="fa fa-check-circle mr-2"></span>نظام المنتسبين</li>
+                            <li><p>Advanced and Modern E-commerce platform that helps sellers connect with marketers and affiliates people that have the ability to reach buyers easily by their selling channels</p></li>
                         </ul>
                     </div>
-                    <div class="d-lg-flex align-items-center w-100 bg-light py-2 px-4">
-                        <span class="price"><sup>$</sup> <span class="number">78</span> <sub>/mos</sub></span>
-                        <p class="w-100 mb-0">
-                            <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                        </p>
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="block-7">
-                    <div class="img" style="background-image: url({{asset('front/images/work-2.jpg')}});"></div>
+                    <div class="img" style="background-image: url({{asset('front/images/soon.jpg')}});"></div>
                     <div class="p-4">
-                        <ul class="pricing-text mb-2">
-                            <li><span class="fa fa-check-circle mr-2"></span>Planning Solution</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>10 Construction Drawings</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>Selection Materials</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>Unlimited Revision</li>
+                        <ul class="pricing-text mb-2  text-center">
+                            <li><span class="fa fa-check-circle mr-2"></span>منصة التجارة الالكترونية</li>
+                            <li><p>E-Commerce Project, we'll publish more info at the right time</p></li>
+
                         </ul>
                     </div>
-                    <div class="d-lg-flex align-items-center w-100 bg-light py-2 px-4">
-                        <span class="price"><sup>$</sup> <span class="number">88</span> <sub>/mos</sub></span>
-                        <p class="w-100 mb-0">
-                            <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                        </p>
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="block-7">
-                    <div class="img" style="background-image: url({{asset('front/images/work-3.jpg')}});"></div>
+                    <div class="img" style="background-image: url({{asset('front/images/soon.jpg')}});"></div>
                     <div class="p-4">
-                        <ul class="pricing-text mb-2">
-                            <li><span class="fa fa-check-circle mr-2"></span>Planning Solution</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>10 Construction Drawings</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>Selection Materials</li>
-                            <li><span class="fa fa-check-circle mr-2"></span>Unlimited Revision</li>
+                        <ul class="pricing-text mb-2  text-center">
+                            <li><span class="fa fa-check-circle mr-2"></span>مشروع تجارة إلكترونية</li>
+                            <li><p>E-commerce Project that will help merchants and small-to-medium stores to start selling online!</p></li>
+
                         </ul>
                     </div>
-                    <div class="d-lg-flex align-items-center w-100 bg-light py-2 px-4">
-                        <span class="price"><sup>$</sup> <span class="number">98</span> <sub>/mos</sub></span>
-                        <p class="w-100 mb-0">
-                            <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                        </p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -297,74 +278,109 @@
         </div>
         <div class="container">
             <div class="row">
-                <dive class="col-md-6 sm-12">
-                    <form action="#" class="bg-light p-5 contact-form">
+                <dive class="col-md-9 sm-12">
+                    @include('front.messages.session')
+                    <form method="POST" action="{{route('front.send')}}" class="bg-light p-5 contact-form">
+                      @csrf
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="الاسم " required>
+                                    @error('name')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+
+                                <div class="form-group">
+                                    <input type="text" name="email" class="form-control" placeholder="الاميل الخاص بك" required>
+                                    @error('email')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+
+                            </div>
+                        </div>
+
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="الاسم ">
+                            <input type="text" name="subject" class="form-control" placeholder="الموضوع" required>
+                            @error('subject')
+                            <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="الاميل الخاص بك">
+                            <textarea required name="message" id=""  cols="30" rows="5" class="form-control" minlength="15" placeholder="الرساله"></textarea>
+                            @error('message')
+                            <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="الموضوع">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="الرساله"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input  type="submit" value="إرسال الرسالة " class="submit btn btn-danger py-3 px-5 message">
+                            <button type="submit" id="submit" class="submit btn btn-danger py-3 px-5 message">إرسال الرسالة  </button>
                         </div>
                     </form>
                 </dive>
-                <dive class="col-md-6 sm-12 text-right">
-                    <p class="text-right">أو تواصل معنا عبر الوسائل اﻵتية:</p>
+                <dive class="col-md-3 sm-12 text-right">
+                    <p class="text-right text-box">أو تواصل معنا عبر الوسائل اﻵتية:</p>
+
                     <a class="box-info ">
-
-                        <div class="col-md-9">
+                        <div class="col-md-12">
                           <div class="row">
-                              <div class="col-md-3"> <i class="fas fa-envelope fa-2x"></i></div>
-                              <div class="col-md-6">
-                                  البريد الالكتروني
-                                  <p>info@devest.com</p>
+                              <div class="col-md-2">
+                                  <div class="socail-icon-box">
+                                      <i class="fas fa-envelope fa-2x"></i>
+                                  </div>
                               </div>
-                          </div>
-                        </div>
-                    </a>
-                         <a class="box-info ">
-                        <div class="col-md-9">
-                          <div class="row">
-                              <div class="col-md-3"> <i class="fas fa-phone-alt fa-2x"></i></div>
-                              <div class="col-md-6">
-                                 التيلفون
-                                  <p>0502327556</p>
+                              <div class="col-md-10">
+                             <div class="box">
+                                 <p>  البريد الالكتروني</p>
+                                 <p>info@devest.com</p>
+                             </div>
                               </div>
                           </div>
                         </div>
                     </a>
 
-                           <a class="box-info ">
-                        <div class="col-md-9">
+
+                    <a class="box-info ">
+                        <div class="col-md-12">
                           <div class="row">
-                              <div class="col-md-3"><i class="fab fa-facebook fa-2x"></i></div>
-                              <div class="col-md-6">
-                                 صفحة الفيسبوك
-                                  <p>@devst.com</p>
+                              <div class="col-md-2">
+                                  <div class="socail-icon-box">
+                                      <i class="fab fa-facebook-f "></i>
+                                  </div>
+                              </div>
+                              <div class="col-md-10">
+                             <div class="box">
+                                 <p>الفيسبوك</p>
+                                 <p>info@devest.com</p>
+                             </div>
                               </div>
                           </div>
                         </div>
                     </a>
 
-                         <a class="box-info ">
-                        <div class="col-md-9">
+
+                    <a class="box-info ">
+                        <div class="col-md-12">
                           <div class="row">
-                              <div class="col-md-3"> <i class="fas fa-map-marker-alt fa-2x"></i></div>
-                              <div class="col-md-6">
-                                  العنوان
-                                  <p>المنصورة - بجوار مصر للطيران</p>
+                              <div class="col-md-2">
+                                  <div class="socail-icon-box">
+                                      <i class="fas fa-mobile-alt"></i>
+                                  </div>
+                              </div>
+                              <div class="col-md-10">
+                             <div class="box">
+                                 <p>  التيلفون </p>
+                                 <p class="phone">+20 502 727 737</p>
+                             </div>
                               </div>
                           </div>
                         </div>
                     </a>
+
+
                 </dive>
             </div>
         </div>
