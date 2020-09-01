@@ -1,4 +1,6 @@
-
+*{
+    overflow-x: hidden;
+}
 /* general Edit styles*/
 .navbar-brand img{
     width: 100px;
