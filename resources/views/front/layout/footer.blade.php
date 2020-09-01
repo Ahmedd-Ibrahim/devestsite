@@ -2,10 +2,10 @@
 
 <a id="scrollTop"></a>
 
-<script src="{{asset('front/js/particles.min.js')}}"></script>
+<script src="{{asset('assests/front//js/particles.min.js')}}"></script>
 <script>
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', '{{asset('front/js/particles.json')}}', function() {
+    particlesJS.load('particles-js', '{{asset('assests/front//js/particles.json')}}', function() {
         console.log('callback - particles.js config loaded');
     });
 </script>
@@ -73,18 +73,18 @@
 
 </footer>
 
-<script src="{{asset('front/js/jquery.min.js')}}"></script>
-<script src="{{asset('front/js/jquery-migrate-3.0.1.min.js')}}"></script>
-<script src="{{asset('front/js/popper.min.js')}}"></script>
-<script src="{{asset('front/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('front/js/jquery.easing.1.3.js')}}"></script>
-<script src="{{asset('front/js/jquery.waypoints.min.js')}}"></script>
-<script src="{{asset('front/js/jquery.stellar.min.js')}}"></script>
-<script src="{{asset('front/js/owl.carousel.min.js')}}"></script>
-<script src="{{asset('front/js/jquery.magnific-popup.min.js')}}"></script>
-<script src="{{asset('front/js/jquery.animateNumber.min.js')}}"></script>
-<script src="{{asset('front/js/scrollax.min.js')}}"></script>
-<script src="{{asset('front/js/all.min.js')}}"></script>
-<script src="{{asset('front/js/main.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery.min.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{asset('assests/front//js/popper.min.js')}}"></script>
+<script src="{{asset('assests/front//js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery.easing.1.3.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery.stellar.min.js')}}"></script>
+<script src="{{asset('assests/front//js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{asset('assests/front//js/jquery.animateNumber.min.js')}}"></script>
+<script src="{{asset('assests/front//js/scrollax.min.js')}}"></script>
+<script src="{{asset('assests/front//js/all.min.js')}}"></script>
+<script src="{{asset('assests/front//js/main.js')}}"></script>
 </body>
 </html>

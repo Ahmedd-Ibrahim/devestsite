@@ -1,9 +1,8 @@
 @extends('front.layout.app')
 @section('content')
-{{--    style="background-image: url({{asset('front/images/bg_1.jpg')}});"--}}
+
     <section id="particles-js"  class="hero-wrap"  data-stellar-background-ratio="0.3">
         <div class="slide-box" id="index">
-{{--            <div class="overlay"></div>--}}
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center">
                     <div class="col-md-10 col-lg-7 ftco-animate d-flex align-items-end">
@@ -36,7 +35,7 @@
             <div class="row no-gutters">
                 <div class="col-md-12 portfolio-wrap">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 img js-fullheight" style="background-image: url({{asset('front/images/work-1.jpg')}});">
+                        <div class="col-md-5 img js-fullheight" style="background-image: url({{asset('assests/front//images/work-1.jpg')}});">
 
                         </div>
                         <div class="col-md-7">
@@ -58,7 +57,7 @@
 
                 <div class="col-md-12 portfolio-wrap">
                     <div class="row no-gutters align-items-center">
-                        <div class="col-md-5 order-md-last img js-fullheight" style="background-image: url({{asset('front/images/work-2.jpg')}});">
+                        <div class="col-md-5 order-md-last img js-fullheight" style="background-image: url({{asset('assests/front//images/work-2.jpg')}});">
 
                         </div>
                         <div class="col-md-7">
@@ -136,7 +135,7 @@
         <div class="row">
             <div class="col-md-4 ftco-animate">
                 <div class="block-7">
-                    <div class="img" style="background-image: url({{asset('front/images/soon.jpg')}});"></div>
+                    <div class="img" style="background-image: url({{asset('assests/front//images/soon.jpg')}});"></div>
                     <div class="p-4">
                         <ul class="pricing-text mb-2 text-center">
                             <li><span class="fa fa-check-circle mr-2"></span>نظام المنتسبين</li>
@@ -148,7 +147,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="block-7">
-                    <div class="img" style="background-image: url({{asset('front/images/soon.jpg')}});"></div>
+                    <div class="img" style="background-image: url({{asset('assests/front//images/soon.jpg')}});"></div>
                     <div class="p-4">
                         <ul class="pricing-text mb-2  text-center">
                             <li><span class="fa fa-check-circle mr-2"></span>منصة التجارة الالكترونية</li>
@@ -161,7 +160,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="block-7">
-                    <div class="img" style="background-image: url({{asset('front/images/soon.jpg')}});"></div>
+                    <div class="img" style="background-image: url({{asset('assests/front//images/soon.jpg')}});"></div>
                     <div class="p-4">
                         <ul class="pricing-text mb-2  text-center">
                             <li><span class="fa fa-check-circle mr-2"></span>مشروع تجارة إلكترونية</li>
@@ -193,7 +192,7 @@
                                 <span class="fa fa-quote-left"></span>
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url({{asset('front/images/person_1.jpg')}})"></div>
+                                    <div class="user-img" style="background-image: url({{asset('assests/front//images/person_1.jpg')}})"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -208,7 +207,7 @@
                                 <span class="fa fa-quote-left"></span>
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url({{asset('front/images/person_2.jpg')}})"></div>
+                                    <div class="user-img" style="background-image: url({{asset('assests/front//images/person_2.jpg')}})"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -223,7 +222,7 @@
                                 <span class="fa fa-quote-left"></span>
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url({{asset('front/images/person_3.jpg')}})"></div>
+                                    <div class="user-img" style="background-image: url({{asset('assests/front//images/person_3.jpg')}})"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -238,7 +237,7 @@
                                 <span class="fa fa-quote-left"></span>
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url({{asset('front/images/person_1.jpg')}})"></div>
+                                    <div class="user-img" style="background-image: url({{asset('assests/front//images/person_1.jpg')}})"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -253,7 +252,7 @@
                                 <span class="fa fa-quote-left"></span>
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url({{asset('front/images/person_2.jpg')}})"></div>
+                                    <div class="user-img" style="background-image: url({{asset('assests/front//images/person_2.jpg')}})"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>

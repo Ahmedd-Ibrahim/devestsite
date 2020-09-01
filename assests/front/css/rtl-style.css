@@ -50,21 +50,5 @@ body{
 .slider-text h1:after{
     right: 0;
 }
-#particles-js .slider-text h1 ,#particles-js  .slider-text p{
-    color: #ddeeff !important;
-}
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
-    color: #d8e9fa;
-}
-.ftco-footer-social li a{
-    padding: 8px;
-    text-align: center;
-}
-
-footer .text{
-    width: 90%;
-    text-align: right;
-    padding: 0 20px;
-}
 
 

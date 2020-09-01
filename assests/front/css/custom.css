@@ -12,6 +12,7 @@
     color: #2789dd !important;
     border:1px solid #2789dd !important;
 }
+
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
     padding-top: 8px;
     padding-bottom: 8px;
@@ -129,7 +130,7 @@ footer{
 .box-info .phone{
     direction: ltr;
 }
-.contact{
+#contact{
     margin-bottom: 60px;
 }
 .contact form.p-5{
@@ -144,5 +145,24 @@ footer{
 .ftco-footer .ftco-footer-widget h2{
     text-align: center;
 }
+
+
+#particles-js .slider-text h1 ,#particles-js  .slider-text p{
+    color: #ddeeff !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+    color: #d8e9fa;
+}
+.ftco-footer-social li a{
+    padding: 8px;
+    text-align: center;
+}
+
+footer .text{
+    width: 90%;
+    text-align: right;
+    padding: 0 20px;
+}
+
 /* End contact us*/
 /* general Edit styles */

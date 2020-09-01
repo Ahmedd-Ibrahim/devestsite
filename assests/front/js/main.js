@@ -246,8 +246,8 @@
 
 
     /*Begin Change logo on scroll*/
-    var initialSrc = "front/images/logo2.png";
-    var scrollSrc = "front/images/logo.png";
+    var initialSrc = "assests/front/images/logo2.png";
+    var scrollSrc = "assests/front/images/logo.png";
 
     $(window).scroll(function() {
         var value = $(this).scrollTop();

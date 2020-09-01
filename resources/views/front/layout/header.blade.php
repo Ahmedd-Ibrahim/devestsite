@@ -9,32 +9,30 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-{{--    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&display=swap" rel="stylesheet">--}}
+    <link rel="stylesheet" href="{{asset('assests/front/css/animate.css')}}">
 
-    <link rel="stylesheet" href="{{asset('front/css/animate.css')}}">
-
-    <link rel="stylesheet" href="{{asset('front/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('front/css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{asset('front/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('front/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/flaticon.css')}}">
      {{-- begin   bootstrap--}}
-    <link rel="stylesheet" href="{{asset('front/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('front/css/bootstrap-rtl.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/bootstrap-rtl.css')}}">
      {{--End of bootstrap--}}
-    <link rel="stylesheet" href="{{asset('front/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/style.css')}}">
 
     {{--my edit--}}
-    <link rel="stylesheet" href="{{asset('front/css/rtl-style.css')}}">
-    <link rel="stylesheet" href="{{asset('front/css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/rtl-style.css')}}">
+    <link rel="stylesheet" href="{{asset('assests/front/css/custom.css')}}">
 
     {{--End my edit--}}
     {{--noty--}}
-    <link rel="stylesheet" href="{{ asset('front/plugins/noty/noty.css') }}">
-    <script src="{{ asset('front/plugins/noty/noty.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assests/front/plugins/noty/noty.css') }}">
+    <script src="{{ asset('assests/front/plugins/noty/noty.min.js') }}"></script>
     <style>
         @font-face {
             font-family: Cairo;
-            src: url({{'front/webfonts/Cairo-Regular.ttf'}});
+            src: url({{'assests/front/webfonts/Cairo-Regular.ttf'}});
         }
 
         * {
@@ -45,7 +43,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{route('front.index')}}"><img class="logo" src="{{asset('front/images/logo2.png')}}" alt=""></a>
+        <a class="navbar-brand" href="{{route('front.index')}}"><img class="logo" src="{{asset('assests/front/images/logo2.png')}}" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>

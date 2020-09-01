@@ -20,36 +20,426 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57cd219b-81f8-4ba1-a103-bb539125383f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/emailRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mail/SendMail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/front/images/soon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/front/plugins/noty/noty.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/front/plugins/noty/noty.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/email/dynamic_email_template.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/messages/flash_messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/messages/session.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/bootstrap-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/rtl-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/Cairo/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/fonts/flaticon/license/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/about-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/image_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/loc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/soon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/team-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/work-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery.animateNumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/particles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/scrollax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/plugins/noty/noty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/plugins/noty/noty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/Cairo-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/Cairo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/Cairo-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/Cairo-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/Cairo-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/Cairo-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/front/frontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/front/frontController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/css/rtl-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/css/rtl-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/about.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/bootstrap-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/rtl-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/Cairo-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/Cairo-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/Cairo-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/Cairo-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/Cairo-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/Cairo-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/Cairo/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/Flaticon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/fonts/flaticon/license/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/image_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/soon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/team-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/images/work-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery.animateNumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/particles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/particles.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/scrollax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/plugins/noty/noty.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/plugins/noty/noty.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/bootstrap/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/Cairo-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/Cairo-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/Cairo-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/Cairo-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/Cairo-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/Cairo-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layout/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layout/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/project.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/services.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/team.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,12 +567,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ggydCBBy79fvnzBZjNlgENQwMR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -211,7 +604,9 @@
       <workItem from="1598710722790" duration="4563000" />
       <workItem from="1598727027834" duration="8171000" />
       <workItem from="1598778204906" duration="38996000" />
-      <workItem from="1598863768616" duration="24947000" />
+      <workItem from="1598863768616" duration="25108000" />
+      <workItem from="1598908633826" duration="2741000" />
+      <workItem from="1598948708817" duration="639000" />
     </task>
     <servers />
   </component>
@@ -228,16 +623,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1598629243329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598629243329" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598891519877">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598911000195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598891519877" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598911000195" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
